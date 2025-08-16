@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Monetrix Fintech</title>
+    <meta name="description" content="Read Monetrix Fintech's Privacy Policy to understand how we collect, use, and protect your personal information when using our financial services.">
+    <meta name="keywords" content="Monetrix Fintech, privacy policy, data protection, financial services, India">
+    <meta name="author" content="Monetrix Fintech">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Privacy Policy - Monetrix Fintech">
+    <meta property="og:description" content="Learn how Monetrix Fintech protects your personal information and ensures data security.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Monetrix+Fintech+Privacy">
+    <meta property="og:url" content="/privacy">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy - Monetrix Fintech">
+    <meta name="twitter:description" content="Understand Monetrix Fintech's commitment to your data privacy and security.">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630?text=Monetrix+Fintech+Privacy">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'coral': {
+                            500: '#ff6f61',
+                            600: '#e55a4d',
+                            700: '#cc4a3f',
+                        },
+                        'teal': {
+                            500: '#2a9d8f',
+                            600: '#238b80',
+                        },
+                        'blue-900': '#003366',
+                        'blue-800': '#002b55',
+                        'gradient-start': '#003366',
+                        'gradient-end': '#2a9d8f',
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 1s ease-out',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background: linear-gradient(to bottom, #f3f4f6, #e5e7eb);
+        }
+
+        /* Mobile Menu */
+        .mobile-menu {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(100%);
+        }
+        .mobile-menu-open {
+            transform: translateX(0);
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, theme('colors.gradient-start'), theme('colors.gradient-end'));
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-overlay {
+            background: rgba(0, 51, 102, 0.7);
+        }
+
+        /* Navigation Hover Effect */
+        .nav-link-hover-effect {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        .nav-link-hover-effect:after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: theme('colors.coral.500');
+            transition: width 0.3s ease;
+        }
+        .nav-link-hover-effect:hover:after {
+            width: 100%;
+        }
+
+        /* Card Hover Animation */
+        .loan-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .loan-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Button Animation */
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+            background-color: theme('colors.coral.600');
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-white/95 backdrop-blur-md shadow-md z-[100] fixed w-full top-0">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="/index.html" class="text-3xl font-extrabold text-blue-900 tracking-tight">Monetrix Fintech</a>
+            <nav class="hidden md:flex space-x-10">
+                <a href="/index.html" class="nav-link-hover-effect text-gray-700 hover:text-blue-900 font-semibold text-lg">Home</a>
+                <a href="/loans.html" class="nav-link-hover-effect text-gray-700 hover:text-blue-900 font-semibold text-lg">Loans</a>
+                <a href="/about.html" class="nav-link-hover-effect text-gray-700 hover:text-blue-900 font-semibold text-lg">About Us</a>
+                <a href="/contact.html" class="nav-link-hover-effect text-gray-700 hover:text-blue-900 font-semibold text-lg">Contact</a>
+            </nav>
+            <div class="md:hidden text-2xl cursor-pointer text-blue-900" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section class="hero-section relative min-h-[400px] sm:min-h-[500px] md:min-h-[600px] rounded-2xl mx-4 my-8 overflow-hidden flex flex-col justify-center px-6 py-12">
+            <div class="absolute inset-0 hero-overlay"></div>
+            <div class="relative text-white max-w-2xl z-10 animate-fade-in">
+                <h2 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-xl leading-tight">Privacy Policy</h2>
+                <p class="text-lg sm:text-xl md:text-2xl opacity-90 drop-shadow-xl mb-8">At Monetrix Fintech, we are committed to protecting your personal information and ensuring transparency in how we handle your data.</p>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-4 py-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-900 text-center mb-12 animate-slide-up">Our Privacy Commitment</h2>
+            <div class="loan-card bg-white rounded-2xl p-6 sm:p-8 shadow-lg max-w-4xl mx-auto">
+                <h3 class="text-xl font-semibold text-blue-900 mb-4">1. Information We Collect</h3>
+                <p class="text-base text-gray-600 mb-4">We collect personal information such as your name, email address, phone number, financial details, and identification documents when you apply for loans or credit cards, or interact with our services. This may include data provided through forms, communications, or website usage.</p>
+
+                <h3 class="text-xl font-semibold text-blue-900 mb-4 mt-6">2. How We Use Your Information</h3>
+                <p class="text-base text-gray-600 mb-4">Your information is used to process loan applications, verify identity, assess creditworthiness, provide customer support, and improve our services. We may also use it to send you updates, offers, or important notifications, with your consent where required.</p>
+
+                <h3 class="text-xl font-semibold text-blue-900 mb-4 mt-6">3. Data Sharing</h3>
+                <p class="text-base text-gray-600 mb-4">We may share your information with trusted third parties, such as financial institutions, credit bureaus, or service providers, to facilitate loan processing or compliance with legal requirements. We do not sell your personal data to third parties for marketing purposes.</p>
+
+                <h3 class="text-xl font-semibold text-blue-900 mb-4 mt-6">4. Data Security</h3>
+                <p class="text-base text-gray-600 mb-4">We implement industry-standard security measures, including encryption and secure servers, to protect your data from unauthorized access, loss, or misuse. However, no system is completely infallible, and we strive to maintain robust safeguards.</p>
+
+                <h3 class="text-xl font-semibold text-blue-900 mb-4 mt-6">5. Your Rights</h3>
+                <p class="text-base text-gray-600 mb-4">You have the right to access, correct, or request deletion of your personal information. You may also opt out of marketing communications. To exercise these rights, contact us at support@monetrixfintech.com.</p>
+
+                <h3 class="text-xl font-semibold text-blue-900 mb-4 mt-6">6. Changes to This Policy</h3>
+                <p class="text-base text-gray-600">We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Updates will be posted on this page, and we encourage you to review it regularly.</p>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-4 py-12 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-900 mb-8 animate-slide-up">Have Questions?</h2>
+            <p class="text-lg text-gray-600 mb-10 max-w-3xl mx-auto">Contact our team for any inquiries about our privacy practices or to exercise your data rights.</p>
+            <a href="/contact.html" class="cta-button inline-block bg-coral-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:bg-coral-600">Contact Us</a>
+        </section>
+    </main>
+
+    <footer class="bg-blue-900 text-gray-300 py-12 text-center">
+        <div class="container mx-auto px-4">
+            <p class="text-lg">&copy; 2025 Monetrix Fintech. All Rights Reserved.</p>
+            <div class="mt-6 space-x-8">
+                <a href="/privacy.html" class="hover:text-coral-500 transition-colors text-base font-medium">Privacy Policy</a>
+                <a href="/terms.html" class="hover:text-coral-500 transition-colors text-base font-medium">Terms & Conditions</a>
+                <a href="/contact.html" class="hover:text-coral-500 transition-colors text-base font-medium">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="menu-backdrop" class="menu-backdrop fixed inset-0 bg-black/50 z-[98] hidden opacity-0 transition-opacity duration-300"></div>
+
+    <nav id="mobile-menu" class="mobile-menu md:hidden fixed top-0 right-0 h-full w-4/5 sm:w-72 bg-white shadow-2xl z-[99]">
+        <div class="flex justify-end p-6">
+            <i class="fas fa-times text-2xl text-blue-900 cursor-pointer" onclick="toggleMenu()"></i>
+        </div>
+        <div class="flex flex-col space-y-6 p-6">
+            <a href="/index.html" class="text-gray-700 hover:text-blue-900 font-semibold text-xl">Home</a>
+            <a href="/loans.html" class="text-gray-700 hover:text-blue-900 font-semibold text-xl">Loans</a>
+            <a href="/about.html" class="text-gray-700 hover:text-blue-900 font-semibold text-xl">About Us</a>
+            <a href="/contact.html" class="text-gray-700 hover:text-blue-900 font-semibold text-xl">Contact</a>
+        </div>
+    </nav>
+    
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            const backdrop = document.getElementById('menu-backdrop');
+            const body = document.body;
+            
+            if (menu.classList.contains('mobile-menu-open')) {
+                menu.classList.remove('mobile-menu-open');
+                backdrop.classList.add('opacity-0');
+                setTimeout(() => backdrop.classList.add('hidden'), 300);
+                body.style.overflow = 'auto';
+            } else {
+                menu.classList.add('mobile-menu-open');
+                backdrop.classList.remove('hidden');
+                setTimeout(() => backdrop.classList.remove('opacity-0'), 10);
+                body.style.overflow = 'hidden';
+            }
+        }
+
+        document.addEventListener('click', (e) => {
+            const menu = document.getElementById('mobile-menu');
+            const hamburger = document.querySelector('.fa-bars');
+            const menuOpen = menu.classList.contains('mobile-menu-open');
+            
+            if (menuOpen && !menu.contains(e.target) && !hamburger.parentElement.contains(e.target)) {
+                toggleMenu();
+            }
+        });
+    </script>
+</body>
+</html>
